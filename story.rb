@@ -1,17 +1,15 @@
 require 'pry'
 
-def display_story(user_title, user_rating)
-  puts "#{user_title} #{user_rating}/10"
-end
+#write a method that accepts two parameters: title and rating
+  #the method should print the story title and the rating out of ten
 
-puts "What is the last movie you watched?"
-user_title = gets.strip
 
-puts "Rate the movie on a scale of 1 to 100"
-user_score = gets.strip
+#show the user a message asking them for a title
 
-user_rating = user_score.to_i / 10
+#store the input in a variable
 
-puts "Thanks."
+#show the user a message asking for their rating of the movie out of 100
+
+# store the input in a variable
 
 display_story(user_title, user_rating)
