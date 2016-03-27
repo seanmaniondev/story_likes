@@ -8,7 +8,7 @@ require 'pry'
 
 #store the input in a variable
 
-#show the user a message asking for their rating of the movie out of 100
+#show the user a message asking for their rating of the movie out of ten
 
 # store the input in a variable
 
